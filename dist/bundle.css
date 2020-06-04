@@ -1,0 +1,11 @@
+body {
+  background-color: #c5c5f599;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 30px 16px;
+}
