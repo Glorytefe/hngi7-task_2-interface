@@ -3,15 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="dist/bundle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'> 
     <title>HNGi7- Team Flash</title>
+
+    <style>
+        .main{
+            top: 20px;
+        }
+        .allscipt{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        .table{
+            margin-top: 30px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+        }
+        th{
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+            color: #A7ABB4;
+        }
+        .inline-th td{
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #353940;
+        }
+        .inline-th{
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #353940;
+        } 
+        .status-btn{
+            background: rgba(79, 206, 161, 0.25);
+            border-radius: 2px;
+        }
+        .pass{
+            background: rgba(79, 206, 161, 0.25);
+            border-radius: 2px;
+            padding: 5px 37px 5px;
+            color: #4FCEA1;
+        }
+        .fail{
+            background: rgba(206, 79, 79, 0.25);
+            border-radius: 2px;
+            padding: 5px 37px 5px;
+            color: #CE4F4F;
+        }
+        .vertical_dots{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
     <header>
 
     </header>
+
+    <div class="container main" style="margin-left: 90px;margin-right: 90px;">
+        <p class="allscipt">All Scripts</p>
+    
+        <div class="row">
+            <input placeholder="search"/>
+            <input placeholder="search"/>
+        </div>
+    
+        <table class="table table-hover col-12">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">NAME</th>
+                <th scope="col">MESSAGE</th>
+                <th scope="col">STATUS</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="inline-th" scope="row">1</th>
+                <td>Raphael Ehindero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+                
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">2</th>
+                <td>Raphael Ehindero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+                
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn fail">Fail</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn fail">Fail</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn fail">Fail</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <th class="inline-th" scope="row">3</th>
+                <td>Raphael Ehinero</td>
+                <td>Hello World, this is Raphael Ehindero with HNGi7 ID HNG-XXXX using python lanuage for task 2</td>
+                <td><button class="btn pass">Pass</button></td>
+                <td><i class="fa fa-ellipsis-v vertical_dots" aria-hidden="true"></i></td>
+              </tr>
+            </tbody>
+          </table>
+    
+    </div>
     <script src="dist/bundle.js"></script>
 </body>
 </html>
