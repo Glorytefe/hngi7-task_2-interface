@@ -1,12 +1,268 @@
 
 body{
-    background-color: #c5c5f599;
+    background-color: #F6F7FB !important;
     min-height: 100vh;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 header{
     background-color: #fff;
-    padding: 30px 16px;
+    padding: 0 0;
+    display: flex !important;
+    display: flex;
+}
+
+.app-logo{
+    width: 100px;
+    height: 100px;
+    background-color: #4F67ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    align-items: center;
+    font-size: 20px;
+}
+
+.blue{
+    color: #4F67ED;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+}
+
+.navbar-container{
+    display: flex;
+    flex: 1;
+}
+
+.app-name{
+    display: flex;
+    flex:1.5;
+    align-items: center;
+}
+
+.menu-links{
+    display: flex;
+    flex: 4;
+    justify-content: flex-end;
+}
+
+.app-name-text{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 30px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.app-name-text .font-icons{
+    margin-right: 10px;
+}
+
+.blue-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #4F67ED;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: block;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.blue-circle i {
+    margin-left: 12.5px;
+    margin-bottom: 2px;
+    color: #fff;
+    position: relative;
+}
+
+.section-1{
+    display: flex;
+    flex: 4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #EDEFFC;
+    justify-content: space-evenly;
+}
+
+.section-1 h5{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.section-1 span{
+    text-align: left;
+    font-Size: 12px;
+    color: #A7ABB4;
+}
+
+.section-1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.subtitle{
+
+}
+
+.subtitle-wrapper {
+    text-align: left;
+}
+
+.section-2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.notification-wrapper{
+    position: relative;
+}
+
+.red{
+    color: #CE4F4F;
+}
+
+.bg-red{
+    background-color: #CE4F4F;
+}
+
+.count-wrapper{
+    display: flex;
+    width: 10px;
+    position: absolute;
+    height: 13px;
+    border-radius: 50%;
+    left: 16px;
+    top: 8px;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container{
+    margin: 40px 60px;
+    width: 100%;
+}
+
+.app-title-1{
+
+}
+
+.controls-wrapper{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.controls-section1, .controls-section2{
+    display: flex;
+    flex: 1;
+    /* justify-content: space-around; */
+}
+
+.controls-section1{
+
+}
+
+controls-section2{
+
+}
+
+.box{
+    background-color: #fff;
+    padding: 4px 8px ;
+    -webkit-box-shadow:  1px 0px 1px 1px rgba(0, 0, 0, 0.05);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:  1px 0px 1px 1px rgba(0, 0, 0, 0.05);  /* Firefox 3.5 - 3.6 */
+  box-shadow:  1px 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.filter-box .filter-container{
+    
+    height: 40px;
+}
+
+.filter-box{
+    width: 40%;
+    max-width: 110px;
+    margin-right: 20px;
+}
+
+.search-box{
+    width: 60%;
+    max-width: 250px;
+}
+
+.bg-blue{
+    background-color: #4F67ED !important;
+    color: #fff !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.bg-lime{
+    background-color: #4FCEA1 !important;
+    color: #fff !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.bg-red{
+    background-color: #CE4F4F !important;
+    color: #fff !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.controls-section2 button{
+    margin-right: 10px;
+    width: 25%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.badge-text{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.controls-section2 button  span.custombage{
+    width: 30px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+}
+
+.filter-text, .filter-container input{
+     line-height: 38px;
+}
+
+.filter-container input{
+    border: none;
+    outline: none;
 }
